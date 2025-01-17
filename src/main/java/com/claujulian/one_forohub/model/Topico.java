@@ -47,7 +47,7 @@ public class Topico {
         this.alumno=alumno;
         this.categoria=datosRegistroTopico.categoria();
         this.mensaje= datosRegistroTopico.mensaje();
-        this.estado=datosRegistroTopico.estado();
+        this.estado=Estado.PENDIENTE;
         this.curso=datosRegistroTopico.curso();
         this.fecha_creacion=LocalDateTime.now();
 
