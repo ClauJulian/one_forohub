@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS usuarios(
+    id BIGSERIAL NOT NULL,
+    login VARCHAR(100) NOT NULL,
+    password VARCHAR(300) NOT NULL,
+
+
+    PRIMARY KEY(id)
+
+);
